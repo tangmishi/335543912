@@ -1,3 +1,6 @@
+#!命令：python ym.py (要解压的文件) (爆破字典)
+#!原理：python 源码 zip 字典
+#!	（包括空格）
 #! /usr/bin/env python3
 import zipfile
 
@@ -30,4 +33,3 @@ if __name__ == '__main__':
         main(sys.argv[1], sys.argv[2])
     else:
         print('Please set zip filepath and passwords list filepath')
-
